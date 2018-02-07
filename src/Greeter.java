@@ -15,7 +15,10 @@ public Greeter(int num, String input)
 	name = input;
 }
 	
-	
+public String toString()
+{
+	return "age: "+age+"; name: "+name;
+}
 
 
 }
